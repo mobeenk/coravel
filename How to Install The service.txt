@@ -1,0 +1,5 @@
+﻿1- publish it.
+2- open power shell as admin 
+3- Installation command: sc.exe create myservicename binpath= c:\temp\myservice.exe start= auto
+(sc.exe create AD_UsersSyncService binpath="C:\TBCWork\TBC Solutions\TBC Solutions\ActivedirectoryService\activedirectoryService\bin\Release\net5.0\ActivedirectoryService.exe" start= auto)
+4- Uninstall command: sc.exe delete myservicename (sc.exe delete AD_UsersSyncService)
